@@ -213,4 +213,18 @@
         </xacro:inertial_cylinder>
     </link>
 
+
+    <!-- joint at the tip of the end effector -->
+    <joint name="eef_fixed" type="fixed">
+        <origin xyz="${link_length} 0 0" rpy="0 0 0" />
+        <parent link="link_5" />
+        <child link="eef_link"/>
+        
+    </joint>
+
+
+    <!-- link to make eef_fixed work -->
+    <link name="eef_link">
+    </link>
+    
 </robot>

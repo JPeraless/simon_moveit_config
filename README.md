@@ -1,1 +1,1 @@
-# SSRT'S Simon MoveIt Config Package
+# SSRT's Simon MoveIt Config Package
